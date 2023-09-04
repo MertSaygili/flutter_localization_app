@@ -3,14 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localization_app/core/locale_keys.dart';
 import 'package:flutter_localization_app/core/localization.dart';
 
-class LanguageScreen extends StatefulWidget {
+class LanguageScreen extends StatelessWidget {
   const LanguageScreen({super.key});
 
-  @override
-  State<LanguageScreen> createState() => _LanguageScreenState();
-}
-
-class _LanguageScreenState extends State<LanguageScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
